@@ -1,9 +1,9 @@
 # OSCH中文介绍
-**口号：**以一分钱成，快速可靠的跨领域转移资金。
+口号：以一分钱成，快速可靠的跨领域转移资金。
 
-**性质：**连接银行，各种支付系统的平台，快速可靠还便宜。
+性质：连接银行，各种支付系统的平台，快速可靠还便宜。
 
-**可实现的功能：**移动钱包，银行工具，智能付款方式以及可以想到的任何付款方式。stellar底层一个复杂的分布式系统，但应用起来是十分容易。
+可实现的功能：移动钱包，银行工具，智能付款方式以及可以想到的任何付款方式。stellar底层一个复杂的分布式系统，但应用起来是十分容易。
 ![](1.jpg)
 
 [[技术路径简单的付款操作]]
@@ -46,7 +46,7 @@ Stellar的主要特点包括以下几个特征：
 [[Steller_系统组成]]
 
 可用资料连接
-stellar官网：https://www.stellar.org/
-stellar白皮书概述：https://www.jianshu.com/p/ba3c53e0d71f
-stellar白皮书：https://www.stellar.org/papers/stellar-consensus-protocol.pdf
-stellar github：https://github.com/stellar
+osch官网：http://www.oschain.io/
+osch社区： http://www.myoschain.com/
+osch白皮书: http://www.oschain.io/static1/OSCHWhitepaper.pdf：
+osch github: https://github.com/OSCHFoundation/osch-core
