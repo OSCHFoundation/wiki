@@ -4,7 +4,7 @@ OSCH的Token的创造方法非常便捷，只需要在OSCH实验室里完成简�
 # 创造一个发行账户
 使用实验室生成发行账号的密钥对,或者通过编程的方式也可以生成新账户   
 向新生成的公钥里转一笔最小1个OSCH的币，用于创建新账户
-!['密钥对'](https://github.com/OSCHFoundation/wiki/raw/master/image/Token%20s%20on%20%20OSCH%201.png)
+!['密钥对'](https://github.com/OSCHFoundation/wiki/raw/master/image/Tokens%20on%20%20OSCH%201.png)
 # 创建分发账户
 使用上面相同的方法创建分发的账户
 # 和发行账户建立信任
