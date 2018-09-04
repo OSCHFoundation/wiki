@@ -36,10 +36,6 @@
 # horizon下载配置
 * 浏览器进入https://github.com/stellar/go/tree/master/services/horizon  页面下方找到horizon-linux-amd64点击下载
 * tar zxvf horizon-v0.11.0-linux-amd64
-* 环境配置
-* --db-url
-* --stellar-core-db-url
-* --stellar-core-url
 * 配置方法参考地址：https://github.com/stellar/go/blob/master/services/horizon/internal/docs/reference/admin.md#configuring
 
 
@@ -48,8 +44,19 @@
 * 新建2个数据库horizon和soch2.0
 * 建立stellar表：stellar-core --newdb
 * 建立本地历史：stellar-core --newhist local
-* 初始化horizon数据库：进入horizon目录下 ./horizon db init 初始化数据库
 
-# 运行
+# 运行osch-core
 * stellar-core --forcescp
 * stellar-core
+
+# 启动horizon
+* 在.bashrc中添加环境变量： vim ~/.bashrc
+export DATABASE_URL="postgresql://user:pass@localhost/horizon2.1"  
+export STELLAR_CORE_DATABASE_URL="postgresql://user:pass@localhost/stellar2.1?sslmode=disable"  
+export STELLAR_CORE_URL="http://localhost:11626"  
+export HISTORY_RETENTION_COUNT=1000  
+export INGEST="true"  
+修改上述用户名密码和数据库  
+使环境变量生效：source ~/.bashrc  
+* 初始化horizon数据库：进入horizon目录下 ./horizon db init 初始化数据库
+* ./horizon
