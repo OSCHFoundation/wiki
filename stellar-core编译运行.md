@@ -45,10 +45,10 @@
 
 # 创建数据库
 * 打开pgadmin3
-* 新建2个数据库horizon和stellar2.0
-* stellar-core --newdb
-* stellar-core --newhist local
-* 进入horizon目录下 ./horizon db init 初始化数据库
+* 新建2个数据库horizon和soch2.0
+* 建立stellar表：stellar-core --newdb
+* 建立本地历史：stellar-core --newhist local
+* 初始化horizon数据库：进入horizon目录下 ./horizon db init 初始化数据库
 
 # 运行
 * stellar-core --forcescp
