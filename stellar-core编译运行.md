@@ -1,7 +1,7 @@
 # Ubuntu系统 16.04
 * sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 * sudo apt-get update
-* sudo apt-get install git build-essential pkg-config autoconf automake libtool bison flex libpq-dev clang++-5.0 gcc-5 g++-5 cpp-5
+* sudo apt-get install git build-essential pkg-config autoconf automake libtool bison flex libpq-dev clang++-5.0 gcc-5 g++-5 cpp-5 curl
 * sudo apt-get install pandoc
 * sudo apt-get install postgresql
 * sudo apt-get install pgadmin3
