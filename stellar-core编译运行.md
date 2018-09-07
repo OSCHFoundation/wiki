@@ -11,7 +11,7 @@
 * psql postgres
 * ALTER USER postgres with PASSWORD 'postgres' 
 * \q
-* vim /etc/postgresql/9.1/main/postgresql.conf
+* vim /etc/postgresql/9.5/main/postgresql.conf
 * listen_addresses = ‘localhost’改为 listen_addresses = ‘*’
 * #password_encryption = on 改为 password_encryption = on
 * sudo vim /etc/postgresql/9.5/main/pg_hba.conf
@@ -20,7 +20,7 @@
 * psql -U postgres -h 127.0.0.1 测试登入
 
 # 下载源码编译
-* git clone -b prod od https://github.com/stellar/stellar-core.git
+* git clone -b prod https://github.com/stellar/stellar-core.git
 * cd stellar-core
 * git submodule init
 * git submodule update
