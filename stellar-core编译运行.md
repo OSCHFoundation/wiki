@@ -11,7 +11,7 @@
 * psql postgres
 * ALTER USER postgres with PASSWORD 'postgres' 
 * \q
-* vim /etc/postgresql/9.5/main/postgresql.conf
+* sudo vim /etc/postgresql/9.5/main/postgresql.conf
 * listen_addresses = ‘localhost’改为 listen_addresses = ‘*’
 * #password_encryption = on 改为 password_encryption = on
 * sudo vim /etc/postgresql/9.5/main/pg_hba.conf
