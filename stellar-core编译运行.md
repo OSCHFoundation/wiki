@@ -20,7 +20,7 @@
 * psql -U postgres -h 127.0.0.1 测试登入
 
 # 下载源码编译
-* git clone -b prod https://github.com/stellar/stellar-core.git
+* git clone -b prod https://github.com/OSCHFoundation/osch-core.git
 * cd stellar-core
 * git submodule init
 * git submodule update
