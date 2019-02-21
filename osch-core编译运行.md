@@ -21,7 +21,7 @@
 
 # 下载源码编译
 * git clone -b prod https://github.com/OSCHFoundation/osch-core.git
-* cd stellar-core
+* cd osch-core
 * git submodule init
 * git submodule update
 
@@ -31,29 +31,29 @@
 * make （配置好可以尝试 make -j 配置差切莫尝试）
 * make check
 * sudo make install
-* 复制一下配置内容到stellar-core下面 https://github.com/stellar/docker-stellar-core-horizon/blob/master/testnet/core/etc/stellar-core.cfg * 修改里面的数据库用户名密码
+修改里面的数据库用户名密码
 
 # horizon下载配置
-* 浏览器进入https://github.com/stellar/go/tree/master/services/horizon  页面下方找到horizon-linux-amd64点击下载
+* 浏览器进入https://github.com/osch/go/tree/master/services/horizon  页面下方找到horizon-linux-amd64点击下载
 * tar zxvf horizon-v0.11.0-linux-amd64
-* 配置方法参考地址：https://github.com/stellar/go/blob/master/services/horizon/internal/docs/reference/admin.md#configuring
+* 配置方法参考地址：https://github.com/osch/go/blob/master/services/horizon/internal/docs/reference/admin.md#configuring
 
 
 # 创建数据库
 * 打开pgadmin3
 * 新建2个数据库horizon和soch2.0
-* 建立stellar表：stellar-core --newdb
-* 建立本地历史：stellar-core --newhist local
+* 建立osch表：osch-core --newdb
+* 建立本地历史：osch-core --newhist local
 
 # 运行osch-core
-* stellar-core --forcescp
-* stellar-core
+* osch-core --forcescp
+* osch-core
 
 # 启动horizon
 * 在.bashrc中添加环境变量： vim ~/.bashrc
 export DATABASE_URL="postgresql://user:pass@localhost/horizon2.1"  
-export STELLAR_CORE_DATABASE_URL="postgresql://user:pass@localhost/stellar2.1?sslmode=disable"  
-export STELLAR_CORE_URL="http://localhost:11626"  
+export OSCH_CORE_DATABASE_URL="postgresql://user:pass@localhost/osch2.1?sslmode=disable"  
+export OSCH_CORE_URL="http://localhost:11626"  
 export HISTORY_RETENTION_COUNT=1000  
 export INGEST="true"  
 修改上述用户名密码和数据库  
