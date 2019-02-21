@@ -34,9 +34,7 @@
 修改里面的数据库用户名密码
 
 # horizon下载配置
-* 浏览器进入https://github.com/osch/go/tree/master/services/horizon  页面下方找到horizon-linux-amd64点击下载
-* tar zxvf horizon-v0.11.0-linux-amd64
-* 配置方法参考地址：https://github.com/osch/go/blob/master/services/horizon/internal/docs/reference/admin.md#configuring
+https://github.com/OSCHFoundation/coast
 
 
 # 创建数据库
