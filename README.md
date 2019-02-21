@@ -45,8 +45,10 @@ Stellar的主要特点包括以下几个特征：
 
 [[Steller_系统组成]]
 
-可用资料连接
-osch官网：http://www.oschain.io/  
-osch社区： http://www.myoschain.com/  
-osch白皮书: http://www.oschain.io/static1/OSCHWhitepaper.pdf  
-osch github: https://github.com/OSCHFoundation/osch-core  
+相关链接
+[osch官网](http://www.oschain.io/)
+[osch社区](http://www.myoschain.com/)
+[osch白皮书](http://www.oschain.io/static1/OSCHWhitepaper.pdf)
+[osch github](https://github.com/OSCHFoundation/osch-core)
+[osch web wallet](http://webwallet.myoschain.com/#/created)
+
