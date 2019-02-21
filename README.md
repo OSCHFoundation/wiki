@@ -29,23 +29,8 @@ Stellar的主要特点包括以下几个特征：
 18. 支持原生资产和发行资产；
 19. 等等
 
-功能具体讲解：
-[[账户]]
-[[资产assets]]
-[[分布式交换_Distributed_Exchange]]
-[[联合_federation]]
 
-[[费用Fee]]
-[[通货膨胀_Inflation]]
-
-[[分布式账本_ledger]]
-[[可执行的操作列表]]
-[[多重签名_Multisignature]]
-[[交易_Transactions]]
-
-[[Steller_系统组成]]
-
-相关链接
+### 相关链接  
 [osch官网](http://www.oschain.io/)  
 [osch社区](http://www.myoschain.com/)  
 [osch白皮书](http://www.oschain.io/static1/OSCHWhitepaper.pdf)  
