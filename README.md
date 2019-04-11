@@ -23,7 +23,7 @@
 17. 代码结构清晰
 18. 支持原生资产和发行资产
 ## 相关概念
-[资产Asset](https://github.com/OSCHFoundation/wiki/blob/master/%E8%B5%84%E4%BA%A7Asset.md)
+[资产Asset](https://github.com/OSCHFoundation/wiki/blob/master/%E8%B5%84%E4%BA%A7Asset.md)  
 [事物](https://github.com/OSCHFoundation/wiki/blob/master/%E4%BA%8B%E5%8A%A1transaction.md)  
 [可执行操作](https://github.com/OSCHFoundation/wiki/blob/master/%E5%8F%AF%E6%89%A7%E8%A1%8C%E7%9A%84%E6%93%8D%E4%BD%9C.md)  
 [链上发行token](https://github.com/OSCHFoundation/wiki/blob/master/Tokens%20on%20OSCH.md)  
