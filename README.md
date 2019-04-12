@@ -30,6 +30,7 @@
 [智能合约](https://github.com/OSCHFoundation/wiki/blob/master/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6.md)  
 [手续费和抵押金](https://github.com/OSCHFoundation/wiki/blob/master/%E8%B4%B9%E7%94%A8Fee.md)  
 [token属性](https://github.com/OSCHFoundation/wiki/blob/master/%E8%B5%84%E4%BA%A7Asset.md)
+[多重签名 Multisignature](https://github.com/OSCHFoundation/wiki/blob/master/%E5%A4%9A%E9%87%8D%E7%AD%BE%E5%90%8DMultisignature.md)
 
 ## 相关链接  
 [osch官网](http://www.oschain.io/)  
